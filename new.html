@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Akkshanth C A | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Akkshanth C A – ECE Student | Developer – AI, Web, IoT | Python, IoT, Web Development">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Poppins,Arial,sans-serif;
+      background:#f5f9ff;
+      color:#1f2a44;
+      line-height:1.6;
+    }
+    header{
+      position:sticky;
+      top:0;
+      background:#fff;
+      padding:14px 7vw;
+      display:flex;
+      justify-content:space-between;
+      box-shadow:0 10px 30px rgba(0,0,0,.08);
+      z-index:10;
+    }
+    nav a{
+      margin-left:18px;
+      text-decoration:none;
+      color:#357ABD;
+      font-weight:600;
+    }
+    section{padding:90px 7vw}
+    h1,h2,h3{margin:0}
+    p{color:#5f6e87}
+    .hero{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:40px;
+      align-items:center;
+    }
+    .pfp{
+      width:220px;
+      height:220px;
+      border-radius:50%;
+      object-fit:cover;
+      box-shadow:0 20px 40px rgba(0,0,0,.2);
+    }
+    .btn{
+      padding:12px 18px;
+      border:none;
+      border-radius:14px;
+      cursor:pointer;
+      font-weight:600;
+    }
+    .btn-primary{background:#357ABD;color:#fff}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:20px;
+    }
+    .card{
+      background:#fff;
+      border-radius:20px;
+      padding:22px;
+      box-shadow:0 20px 50px rgba(0,0,0,.08);
+    }
+    .proj img{
+      width:100%;
+      height:160px;
+      object-fit:cover;
+      border-radius:16px;
+    }
+    form{max-width:600px;margin:auto}
+    input,textarea{
+      width:100%;
+      padding:14px;
+      margin:10px 0;
+      border-radius:12px;
+      border:1px solid #ccd6ee;
+    }
+    footer{text-align:center;padding:40px;color:#5f6e87}
+
+    /* WhatsApp */
+    .whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      z-index:999;
+    }
+    .whatsapp img{width:52px}
+    @media print{
+      nav,footer,.whatsapp,button{display:none}
+      body{background:#fff}
+      section{padding:30px}
+    }
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr;text-align:center}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <strong>Akkshanth C A</strong>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="hero">
+    <div>
+      <h1>Hello, I'm Akkshanth </h1>
+      <p>
+        Electronics and Communication Engineering student and
+        <strong>Aspiring Cloud & IoT Engineer</strong>
+        with hands-on experience in Python, Web Development
+        and IoT-based systems.
+      </p>
+      <br>
+      <button class="btn btn-primary" onclick="location.href='#projects'">View Projects</button>
+    </div>
+    <div style="text-align:center">
+      <img class="pfp" src="pic.jpeg" alt="Akkshanth C A">
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2 style="text-align:center">Technical Skills</h2><br>
+  <div class="grid">
+    <div class="card"><strong>Programming</strong><p>Python, C (Basics)</p></div>
+    <div class="card"><strong>Web</strong><p>HTML, CSS, JavaScript (Learning)</p></div>
+    <div class="card"><strong>IoT</strong><p>Sensors, Automation, Hardware Programming</p></div>
+    <div class="card"><strong>Tools</strong><p>Arduino, Raspberry Pi (Basic), GitHub</p></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 style="text-align:center">Projects</h2><br>
+  <div class="grid">
+
+    <div class="card proj">
+      <img src="pic1.png" alt="Bioreactor">
+      <h3>Smart BioReactor</h3>
+      <p><strong>Tech:</strong> IoT | Sensors | Automation</p>
+      <p>
+        This invention relates to a low-cost, eco-friendly bio-reactor system designed to treat textile dye 
+wastewater by using stimulated dye-degrading microorganisms. The system enables effective 
+breakdown of complex dye molecules, reduces water pollution, and makes the solution suitable for 
+MSME-level textile industries. 
+      </p>
+    </div>
+
+    <div class="card proj">
+      <img src="bill.png" alt="Billing software">
+      <h3>Billing Software</h3>
+      <p><strong>Tech:</strong> Python | Desktop App</p>
+      <p>
+        Python-based billing application with GST calculation,
+        invoice generation and report management using PyQt6 and CSS.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ATS RESUME -->
+<section id="resume">
+  <h2 style="text-align:center">ATS-Optimized Resume</h2><br>
+  <div class="card">
+
+    <h3>Akkshanth C A</h3>
+    <p><strong>Role:</strong> Developer – AI | Web | IoT</p>
+    <p><strong>Email:</strong> akkshantha@gmail.com</p>
+    <p><strong>Phone:</strong> +91 93615 37178</p>
+
+    <a href="Akkshanth Resume (1).pdf" download class="btn btn-primary">
+      Download Resume (PDF)
+    </a>
+
+    <hr>
+
+    <h3>Professional Summary</h3>
+    <p>
+      Electronics and Communication Engineering student with
+      strong interest in IoT, Python programming and web technologies.
+      Passionate about building practical engineering solutions.
+    </p>
+
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>Python, C (Basics), HTML, CSS</li>
+      <li>IoT Sensors, Automation Systems</li>
+      <li>Arduino, Raspberry Pi (Basic)</li>
+      <li>GitHub (Beginner)</li>
+    </ul>
+
+    <h3>Education</h3>
+    <p>
+      B.E – Electronics and Communication Engineering (2nd Year)<br>
+      Sethu Institute of Technology, Madurai
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 style="text-align:center">Contact Me</h2>
+  <p style="text-align:center">Direct email delivery</p>
+
+  <form onsubmit="sendMail(event)">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+    <button class="btn btn-primary" type="submit">Send Message</button>
+  </form>
+
+  <div style="text-align:center;margin-top:15px;">
+    <a href="https://instagram.com/akkshanth64" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" width="34">
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Akkshanth C A
+</footer>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/919361537178" target="_blank" class="whatsapp">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+</a>
+
+<script>
+function sendMail(e){
+  e.preventDefault();
+  const name=document.getElementById('name').value;
+  const email=document.getElementById('email').value;
+  const msg=document.getElementById('message').value;
+
+  const subject=encodeURIComponent("Portfolio Message from "+name);
+  const body=encodeURIComponent(msg+"\n\nReply to: "+email);
+
+  window.location.href=
+    "mailto:akkshantha@gmail.com?subject="+subject+"&body="+body;
+}
+</script>
+
+</body>
+</html>
